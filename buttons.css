@@ -16,3 +16,9 @@
   padding: 12px 65px;
   box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.25);
 }
+
+.btn-primary:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: var(--pink);
+  color: #fff;
+}
