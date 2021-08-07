@@ -26,14 +26,8 @@
   --button: 1.125rem;
   --button-line-height: 27px;
 
-  --section-padding: 0 40px;
+  --horizontal-section-padding: 40px;
   --container-max-width: 1275px;
-}
-
-body {
-  background: no-repeat url('./assets/bg-desktop.svg') center/cover;
-  background-color: var(--purple);
-  min-height: 100vh;
 }
 
 h1 {
@@ -55,11 +49,6 @@ h1 {
 }
 
 @media (max-width: 375px) {
-  body {
-    background: no-repeat url('./assets/bg-mobile.svg') top/contain;
-    background-color: var(--purple);
-  }
-
   :root {
     --h1: 1.5rem;
     --h1-line-height: 36px;
