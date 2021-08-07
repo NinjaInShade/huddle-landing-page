@@ -58,5 +58,7 @@ h1 {
 
     --button: 0.75rem;
     --button-line-height: 18px;
+
+    --horizontal-section-padding: 36px;
   }
 }
