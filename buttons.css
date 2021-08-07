@@ -8,4 +8,6 @@
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
   font-size: var(--button);
+  line-height: var(--button-line-height);
+  font-weight: 400;
 }

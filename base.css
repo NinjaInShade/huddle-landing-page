@@ -12,50 +12,40 @@
   font-size: 16px;
 
   /* Primary */
-  --dark-blue: #1f2f56;
-
-  --blue: #3829e0;
-  --blue-hover: #766cf1;
-
-  --pale-blue: #dfe6fb;
-  --very-pale-blue: #7280a7;
-
-  /* Neutral */
-  --light: #f7f9ff;
+  --purple: #684bb1;
+  --pink: #ff52c1;
+  --soft-pink: #e880e8;
 
   /* Typography */
-  --h1: 1.75rem;
+  --h1: 2.5rem;
+  --h1-line-height: 60px;
 
-  --body: 1rem;
-  --body-line-height: 26px;
+  --body: 1.125rem;
+  --body-line-height: 27px;
 
-  --body-s: 0.875rem;
+  --button: 1.125rem;
+  --button-line-height: 27px;
 
-  --button: 0.938rem;
-
-  --container-max-width: 450px;
+  --section-padding: 0 40px;
+  --container-max-width: 1275px;
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background: no-repeat url('./assets/bg-desktop.svg') center/cover;
+  background-color: var(--purple);
   min-height: 100vh;
 }
 
 h1 {
   font-family: 'Poppins', sans-serif;
   font-size: var(--h1);
-  font-weight: 900;
+  line-height: var(--h1-line-height);
+  font-weight: 600;
 }
 
 .body-text {
   font-size: var(--body);
   line-height: var(--body-line-height);
-}
-
-.body-s-text {
-  font-size: var(--body-s);
 }
 
 .container {
@@ -64,18 +54,20 @@ h1 {
   width: 100%;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 375px) {
   body {
-    background: no-repeat url('./assets/pattern-background-mobile.svg') top;
-    background-color: var(--pale-blue);
+    background: no-repeat url('./assets/bg-mobile.svg') top/contain;
+    background-color: var(--purple);
   }
 
   :root {
-    --h1: 22px;
+    --h1: 1.5rem;
+    --h1-line-height: 36px;
 
-    --body: 0.938rem;
-    --body-line-height: 25px;
+    --body: 1rem;
+    --body-line-height: 24px;
 
-    --body-s: 0.813rem;
+    --button: 0.75rem;
+    --button-line-height: 18px;
   }
 }
