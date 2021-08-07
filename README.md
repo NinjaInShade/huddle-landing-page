@@ -24,13 +24,13 @@ Users should be able to:
 
 ### Screenshot
 
-<!-- ![](./screenshots/Desktop_solution.png) -->
-<!-- ![](./screenshots/Mobile_solution.png) -->
+![](./screenshots/Desktop_solution.png)
+![](./screenshots/Mobile_solution.png)
 
 ### Links
 
-<!-- - Solution URL: (https://www.frontendmentor.io/solutions/responsive-order-summary-card-TFXa8ZDRV) -->
-<!-- - Live Site URL: (https://lm-order-summary-component.netlify.app/) -->
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-landing-page-with-tabbable-elements-ngqH7Wjju)
+- Live Site URL: (https://lm-huddle-landing-page.netlify.app/)
 
 ## My process
 
@@ -42,7 +42,7 @@ Users should be able to:
 
 ### What I learned
 
-Not done yet.
+Learnt further/practiced making sure all elements are tabbable and have focus states. I also made sure the icons were accessible, so this project was less about the layout but more about making sure it was accessible.
 
 ## Author
 
