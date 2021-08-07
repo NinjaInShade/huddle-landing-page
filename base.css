@@ -1,0 +1,81 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  scroll-behavior: smooth;
+  font-size: 16px;
+
+  /* Primary */
+  --dark-blue: #1f2f56;
+
+  --blue: #3829e0;
+  --blue-hover: #766cf1;
+
+  --pale-blue: #dfe6fb;
+  --very-pale-blue: #7280a7;
+
+  /* Neutral */
+  --light: #f7f9ff;
+
+  /* Typography */
+  --h1: 1.75rem;
+
+  --body: 1rem;
+  --body-line-height: 26px;
+
+  --body-s: 0.875rem;
+
+  --button: 0.938rem;
+
+  --container-max-width: 450px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: var(--h1);
+  font-weight: 900;
+}
+
+.body-text {
+  font-size: var(--body);
+  line-height: var(--body-line-height);
+}
+
+.body-s-text {
+  font-size: var(--body-s);
+}
+
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media (max-width: 450px) {
+  body {
+    background: no-repeat url('./assets/pattern-background-mobile.svg') top;
+    background-color: var(--pale-blue);
+  }
+
+  :root {
+    --h1: 22px;
+
+    --body: 0.938rem;
+    --body-line-height: 25px;
+
+    --body-s: 0.813rem;
+  }
+}
